@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/hoten"
+        android:text="Tên nhân viên:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff00ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tdn"
+        android:text="Tên đăng nhập"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ff0066"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/sdt"
+        android:text="SĐT:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hoten"
+        android:textColor="#ff0066"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/btnsua"
+        android:src="@drawable/goimon"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/btnxoa"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:id="@+id/btnxoa"
+        android:src="@drawable/x"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>

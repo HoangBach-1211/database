@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/activity_nha_bep_hien_mon.xml" value="0.22" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/activity_nha_bep_nhan_dl.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/bananbep.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/custom_layout_baidangcuatoi.xml" value="0.33" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/custom_layout_hienloaimonan.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/custom_layout_hienthinhanvien.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/dangky.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/dangnhap.xml" value="0.22" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/layout_hienthilsgoimon.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/layout_hienthinhanvien.xml" value="0.25" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/layout_suabanan.xml" value="0.5" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/layout_thembanan.xml" value="0.5" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/layout_themthucdon.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/shownhanvien.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/layout/updatesl.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/menu/add_nhanvien.xml" value="0.5" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16510416666666666" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/menu/item_menu.xml" value="0.21" />
+        <entry key="..\:/AndroidBTL/Order/app/src/main/res/menu/xoamonan.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

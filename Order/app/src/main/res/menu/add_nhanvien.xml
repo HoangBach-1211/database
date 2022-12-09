@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="Thêm nhân viên"
+      android:id="@+id/add_nv"
+    android:icon="@drawable/professor"
+    app:showAsAction="always">
+
+</item>
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PopUpActivity" parent="Theme.AppCompat.Dialog">
+
+    </style>
+    <style name="NavigationStyle" parent="Widget.Design.NavigationView">
+        <item name="android:textColorPrimary">@color/backgroundtransparentGreen</item>
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+    </style>
+    <style name="txt">
+
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

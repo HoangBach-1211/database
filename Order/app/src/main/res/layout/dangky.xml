@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".dangnhap">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edTenDangNhapDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/tendangnhap"
+            android:padding="@dimen/size10dp"
+            android:singleLine="true"
+            android:textColor="#FA2FAF"
+            android:textColorHint="#3741F0"
+            app:layout_constraintTop_toBottomOf="@+id/txtTieuDeDangKy"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/edMatKhauDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="Nhập lại mật khẩu"
+            android:padding="@dimen/size10dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#FA2FAF"
+            android:textColorHint="#3741F0"
+            app:layout_constraintTop_toBottomOf="@+id/edreMatKhauDK"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <EditText
+            android:id="@+id/edreMatKhauDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/nhapmatkhau"
+            android:padding="@dimen/size10dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#FA2FAF"
+            android:textColorHint="#3741F0"
+            app:layout_constraintTop_toBottomOf="@+id/edTenDangNhapDK"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <RadioGroup
+            android:id="@+id/rgGioiTinh"
+            android:layout_width="350dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/edMatKhauDK"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="112dp">
+
+            <RadioButton
+                android:id="@+id/rdNam"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Nam"
+                android:textColor="#FA2FAF" />
+
+            <RadioButton
+                android:id="@+id/rdNu"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:textColor="#FA2FAF" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edSDTDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="@dimen/size5dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/idcard"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="Số điện thoại"
+            android:numeric="integer"
+            android:padding="@dimen/size10dp"
+            android:textColor="#FA2FAF"
+            android:textColorHint="#3741F0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edNgaySinhDK" />
+
+        <EditText
+            android:id="@+id/edNgaySinhDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/ngaysinh"
+            android:padding="@dimen/size10dp"
+            android:textColor="#FA2FAF"
+            android:textColorHint="#3741F0"
+            app:layout_constraintTop_toBottomOf="@+id/rgGioiTinh"
+            tools:layout_editor_absoluteX="19dp" />
+
+        <Button
+            android:id="@+id/btnDongYDK"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/duong_vien1"
+            android:padding="@dimen/size10dp"
+            android:text="@string/dangky"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edSDTDK" />
+
+        <Button
+            android:id="@+id/btnThoatDK"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/size10dp"
+
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/duong_vien1"
+            android:padding="@dimen/size10dp"
+            android:text="Quay lại"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edSDTDK" />
+
+        <TextView
+            android:id="@+id/txtTieuDeDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/dangky"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#F72B70"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinQuyen"
+            android:layout_width="363dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/duong_vien55"
+            android:outlineSpotShadowColor="#3567E4"
+            android:scrollbarSize="20dp"
+            android:textColor="#FA2FAF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDongYDK"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edSDTDK" />
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

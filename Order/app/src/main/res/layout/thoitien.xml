@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="210dp"
+    android:background="@drawable/back"
+    >
+
+
+    <TextView
+
+        android:id="@+id/txtTongTien"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#34BD3B"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FCFBFA"
+        android:text=""
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtienkhachdua"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:textColor="#03A9F4"
+            android:hint="Khách đưa "
+            android:textColorHint="#2196F3"
+            />
+        <TextView
+            android:id="@+id/txtTinhTrang"
+            android:layout_weight="1"
+            android:background="@drawable/duong_vien5"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:text=".000 VND"
+            android:textAlignment="center"
+            android:textColor="#F71B07"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btntinh"
+            android:layout_weight="1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Tính"
+            android:background="@drawable/duong_vien4"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/xong"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Xong"
+            android:background="@drawable/duong_vien4"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtthoilai"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#34BD3B"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FCFBFA"
+        android:text=""
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

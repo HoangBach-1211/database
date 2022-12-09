@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e53935"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Hóa đơn thanh toán"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/et_customer_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextdesign"
+            android:textAlignment="center"
+            android:textColor="#010111"
+            android:text="Nhà hàng Toàn Phát - 18 Phan Chu Trinh,         Phường 9 - TP Đà Lạt
+Tel. 0373 225 225"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:singleLine="false"
+            android:textSize="18dp" />
+
+
+        <GridView
+            android:id="@+id/gvinhoadon"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/paper1"
+            android:paddingTop="100dp">
+
+        </GridView>
+
+        <TextView
+            android:id="@+id/txttongt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/paper"
+            android:textColor="@color/colorBlack"
+
+            />
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:paddingLeft="10dp"
+                android:text="PRINTING DETAILS"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CFD8DC"
+                android:paddingLeft="10dp"
+                android:text="Trạng thái:"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/bpstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CFD8DC"
+                android:gravity="right"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Đã ngắt kết nối"
+                android:textColor="#C73B3B"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#000000">
+
+            <Button
+                android:id="@+id/Scan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:drawableLeft="@drawable/ic_bluetooth_black_24dp"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="34dp"
+                android:paddingTop="3dp"
+                android:text="Connect"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mPrint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:drawableLeft="@drawable/ic_print_black_24dp"
+                android:enabled="false"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="34dp"
+                android:paddingTop="3dp"
+                android:text="In"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

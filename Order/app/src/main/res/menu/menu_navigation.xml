@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        >
+
+
+        <item
+            android:id="@+id/itNB"
+            android:title="Nhà bếp"
+            android:textColor="#8545F5"
+            android:icon="@drawable/bepp"
+            />
+        <item
+            android:id="@+id/itTK"
+            android:title="Thống kê"
+            android:textColor="#8545F5"
+            android:icon="@drawable/barschart"
+            />
+        <item
+            android:id="@+id/itNhanVien"
+            android:title="@string/nhanvien"
+            android:textColor="#8545F5"
+            android:icon="@drawable/businesspresentation"
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:textColor="#8545F5"
+            android:title="Đăng xuất"
+            android:icon="@drawable/logout"
+            />
+    </group>
+
+
+</menu>

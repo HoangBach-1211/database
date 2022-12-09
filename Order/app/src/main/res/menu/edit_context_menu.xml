@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/banan"
+        android:id="@+id/itSua"
+        android:title="Chuyển bàn"
+        />
+
+
+    <item
+        android:icon="@drawable/banan"
+        android:id="@+id/itGop"
+        android:title="Gộp bàn"
+        />
+
+    <item
+        android:id="@+id/itXoa"
+        android:title="Xóa bàn"
+        android:icon="@drawable/delete"
+        />
+</menu>

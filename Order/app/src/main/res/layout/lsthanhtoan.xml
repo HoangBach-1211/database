@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="120dp"
+
+
+
+    android:background="@drawable/bak">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/hinhloadve"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/thongke">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+
+                android:id="@+id/txttenbanls"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Tên bàn"
+                android:textColor="#0000FF"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/txtngaygoils"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày gọi"
+                android:textColor="#660099"
+                android:layout_marginLeft="2dp"
+                android:textSize="18sp">
+
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/txttongtienls"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="2dp"
+                android:shadowColor="@color/colorBlack"
+                android:text="Tổng tiền"
+                android:textColor="#F8473A"
+                android:textSize="20sp">
+
+            </TextView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+</LinearLayout>

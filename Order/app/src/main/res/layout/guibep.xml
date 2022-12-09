@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size10dp"
+        android:background="@color/backgroundDangNhap"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tenmonan"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soluong"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thao tác
+"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+            />
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gvNhanDuLieu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:numColumns="1">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/size5dp"
+            android:id="@+id/imBanAn"
+            android:layout_width="@dimen/size100dp"
+            android:layout_height="@dimen/size100dp"
+            android:src="@drawable/banan"
+            android:layout_below="@+id/txtTenBanAn"
+            />
+
+
+    </GridView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnTuChoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ff0044"
+            android:text="Từ chối"
+            android:layout_margin="@dimen/size10dp"
+            />
+
+        <Button
+            android:id="@+id/btnTiepNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tiếp nhận"
+            android:background="#2196F3"
+            android:layout_margin="@dimen/size10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

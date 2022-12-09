@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nentt"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundtransparentGreen"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:textColor="#ff0099"
+
+                android:textColorHint="#ff0099">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mã NH/Quán"
+                    android:layout_weight="2"
+
+                    android:background="@drawable/duong_vien55"
+                    />
+                <EditText
+
+                    android:textAlignment="center"
+                    android:id="@+id/edMaquan"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/size10dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/duong_vien5"
+                    android:hint="VD:NHHuyHoang001"
+                    android:textColor="#FFA31C"
+                    android:textColorHint="#FFEB3B"/>
+
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/edTenQuan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/duong_vien5"
+                android:hint="Tên nhà hàng/quán"
+                android:textAlignment="center"
+                android:textColor="#FFA31C"
+                android:textColorHint="#FFEB3B" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff0099"
+                android:textColorHint="#ff0099">
+
+                <Spinner
+
+                    android:id="@+id/spinTinh"
+                    android:layout_weight="1"
+                    android:padding="@dimen/size5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/duong_vien4"
+                    android:textColor="#ff0099"
+                    android:textColorHint="#ff0099"
+
+                    >
+
+                </Spinner>
+
+                <Spinner
+                    android:id="@+id/spinHuyen"
+                    android:layout_weight="1"
+                    android:padding="@dimen/size5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/duong_vien4"
+                    android:textColor="#ff0099"
+                    android:textColorHint="#ff0099"
+
+                    >
+
+                </Spinner>
+
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinXa"
+                android:layout_width="match_parent"
+                android:background="@drawable/duong_vien4"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff0099"
+                android:textColorHint="#ff0099"
+
+                >
+
+            </Spinner>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0099"
+                android:orientation="horizontal"
+                android:textColorHint="#ff0099">
+                <Spinner
+                    android:id="@+id/loaiHinh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:textColor="#ff0099"
+                    android:textColorHint="#ff0099"
+                    android:background="@drawable/duong_vien4"
+
+                    >
+
+                </Spinner>
+                <ImageButton
+                    android:id="@+id/ti1"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/duong_vien"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/wc">
+
+                </ImageButton>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:textColor="#ff0099"
+                android:textColorHint="#ff0099">
+
+
+                <ImageView
+                    android:id="@+id/imHinhThucDon"
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/addimage">
+
+                </ImageView>
+                <EditText
+                    android:id="@+id/motachitiet"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/duong_vien5"
+                    android:hint="Giới thiệu"
+                    android:textAlignment="center"
+                    android:textColor="#FFA31C"
+                    android:textColorHint="#FFEB3B" />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+
+        <Button
+            android:id="@+id/btnDongYThemMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/size10dp"
+            android:padding="@dimen/size10dp"
+            android:background="@drawable/duong_vien2"
+            />
+
+        <Button
+            android:id="@+id/btnThoatThemMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/size10dp"
+            android:padding="@dimen/size10dp"
+            android:background="@drawable/duong_vien2"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

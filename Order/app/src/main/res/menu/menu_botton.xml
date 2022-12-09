@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/itTrangChu"
+            android:title="Bàn ăn"
+            android:textColor="#8545F5"
+            android:icon="@drawable/ictable"
+            android:checked="true"
+            />
+
+
+        <item
+            android:id="@+id/itThucDon"
+            android:title="Thực đơn"
+            android:textColor="#8545F5"
+            android:icon="@drawable/icthucdon"
+            />
+
+        <item
+            android:id="@+id/itLS"
+            android:title="Lịch sử TT"
+            android:textColor="#8545F5"
+            android:icon="@drawable/icls"
+            />
+    </group>
+
+
+</menu>
+
+
+
+

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thanhnguyen.smartorder">
+    package="com.Nhom10.BTL">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -17,56 +17,56 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.MainActivity"
+            android:name="com.Nhom10.com.nhom10.smartorder.MainActivity"
             android:label="@string/title_activity_main"></activity>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.NhaBepHienMon" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.NhaBepNhanDL" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.dangnhap">
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.NhaBepHienMon" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.NhaBepNhanDL" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.dangnhap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.dangky" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.home" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.dangky" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.home" />
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.ThemBanAnActivity"
+            android:name="com.Nhom10.com.nhom10.smartorder.ThemBanAnActivity"
             android:theme="@style/PopUpActivity" />
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.SoLuongActivity"
+            android:name="com.Nhom10.com.nhom10.smartorder.SoLuongActivity"
             android:theme="@style/PopUpActivity" />
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.SuaBanAnActivity"
+            android:name="com.Nhom10.com.nhom10.smartorder.SuaBanAnActivity"
             android:theme="@style/PopUpActivity" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.ThanhToanActivity" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.ThanhToanActivity" />
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.ThemLoaiThucDonActivity"
+            android:name="com.Nhom10.com.nhom10.smartorder.ThemLoaiThucDonActivity"
             android:theme="@style/PopUpActivity" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.ThemThucDonActivity" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.FragmentApp.ShowNhanVien" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.DAO.BanAnDAO" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.DataProvider" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.ThemThucDonActivity" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.FragmentApp.ShowNhanVien" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.DAO.BanAnDAO" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.DataProvider" />
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.updatesoluong"
+            android:name="com.Nhom10.com.nhom10.smartorder.updatesoluong"
             android:theme="@style/PopUpActivity" />
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.HTLichSu" />
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.HTLichSu" />
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.GopBanAnActivity"
+            android:name="com.Nhom10.com.nhom10.smartorder.GopBanAnActivity"
             android:theme="@style/PopUpActivity"></activity>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.HTThongKe"></activity>
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.HTThongKe"></activity>
 
         <activity
-            android:name="com.thanhnguyen.com.nhom10.smartorder.thoithien"
+            android:name="com.Nhom10.com.nhom10.smartorder.thoithien"
             android:theme="@style/PopUpActivity">
 
         </activity>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.FragmentApp.quenmk"></activity>
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.FragmentApp.quenmk"></activity>
 
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.DeviceListActivity"/>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.inHoaDon"></activity>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.FragmentApp.noti"></activity>
-        <activity android:name="com.thanhnguyen.com.nhom10.smartorder.DangBai"></activity>
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.DeviceListActivity"/>
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.inHoaDon"></activity>
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.FragmentApp.noti"></activity>
+        <activity android:name="com.Nhom10.com.nhom10.smartorder.DangBai"></activity>
 
 
     </application>
